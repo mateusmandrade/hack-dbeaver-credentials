@@ -180,6 +180,17 @@ toml = "*"
 virtualenv = ">=20.0.8"
 
 [[package]]
+name = "prettyconf"
+version = "2.2.1"
+description = "Separation of settings from code."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+aws = ["boto3"]
+
+[[package]]
 name = "pycodestyle"
 version = "2.10.0"
 description = "Python style guide checker"
@@ -322,7 +333,7 @@ testing = ["coverage (>=6.2)", "coverage-enable-subprocess (>=1)", "flaky (>=3.7
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "5c8e7eaeecfe304dac4e6453223e96226188e768920242c68f1aa8c98e6dd633"
+content-hash = "8dbc3c854c46cfeb3887c6a39dbbfedacbe4186bae0a2293190517b78f8c1543"
 
 [metadata.files]
 black = [
@@ -398,6 +409,9 @@ platformdirs = [
 pre-commit = [
     {file = "pre_commit-2.20.0-py2.py3-none-any.whl", hash = "sha256:51a5ba7c480ae8072ecdb6933df22d2f812dc897d5fe848778116129a681aac7"},
     {file = "pre_commit-2.20.0.tar.gz", hash = "sha256:a978dac7bc9ec0bcee55c18a277d553b0f419d259dadb4b9418ff2d00eb43959"},
+]
+prettyconf = [
+    {file = "prettyconf-2.2.1.tar.gz", hash = "sha256:2478d16bc2596c9863e93dd182ca70b71f636f0e169ab23288906c53147cfdbc"},
 ]
 pycodestyle = [
     {file = "pycodestyle-2.10.0-py2.py3-none-any.whl", hash = "sha256:8a4eaf0d0495c7395bdab3589ac2db602797d76207242c17d470186815706610"},
