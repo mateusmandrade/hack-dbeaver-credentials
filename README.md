@@ -1,2 +1,2 @@
 # hack-dbeaver-credentials
-Set dbeaver credentials in a simple command
+Set DBEaver credentials in a simple command
