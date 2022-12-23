@@ -11,6 +11,7 @@ python = "^3.9"
 typer = {extras = ["all"], version = "^0.7.0"}
 pycryptodome = "^3.16.0"
 prettyconf = "^2.2.1"
+rich = "^12.6.0"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
